@@ -1,2 +1,5 @@
 # nielsmeta.github.io
-专注游戏技术、BIM技术
+专注
+1.游戏技术
+2.BIM技术
+3.元宇宙
