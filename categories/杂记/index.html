@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Hello World | 狂风</title>
+  <title>狂风</title>
   <meta name="keywords" content="">
-  <meta name="description" content="Hello World | 狂风">
+  <meta name="description" content="狂风">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="about">
@@ -54,7 +54,7 @@
 
 
 <body>
-<aside class="nav">
+<aside class="nav mobile">
     <div class="nav-left">
         <a href="/"
    class="avatar_target">
@@ -118,6 +118,20 @@
             
         </div>
     </li>
+    
+        
+            
+                <li>
+                    <div data-rel="杂记">
+                        
+                        杂记
+                        <small>(1)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
     
 </ul>
 <div class="left-bottom">
@@ -190,6 +204,10 @@
     <input id="tag-search" />
     <div class="tag-wrapper">
         
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>心情</a>
+            </li>
+        
     </div>
 
 </div>
@@ -198,12 +216,12 @@
     <nav id="title-list-nav">
         
         
-        <a  class="All "
-           href="/2023/03/17/hello-world/"
-           data-tag=""
+        <a  class="All 杂记 "
+           href="/2023/05/04/%E6%9D%82%E8%AE%B0%C2%B7%E6%88%91%E7%9A%84%E5%A4%A7%E5%AD%A6/"
+           data-tag="心情"
            data-author="" >
-            <span class="post-title" title="Hello World">Hello World</span>
-            <span class="post-date" title="2023-03-17 12:07:45">2023/03/17</span>
+            <span class="post-title" title="杂记·我的大学">杂记·我的大学</span>
+            <span class="post-date" title="2023-05-04 22:46:48">2023/05/04</span>
         </a>
         
         <div id="no-item-tips">
@@ -222,54 +240,12 @@
         </div>
     </div>
 </aside>
-<div id="post">
+<div id="post" class="index">
     <div class="pjax">
-        <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <article class="index">
+            <div class="toc-ref">
     
-        <h1 class="article-title">Hello World</h1>
-    
-    <div class="article-meta">
-        
-        
-        
-        
-    </div>
-    <div class="article-meta">
-        
-            Created At : <time class="date" title='Updated At: 2023-03-17 12:05:28'>2023-03-17 12:07</time>
-        
-    </div>
-    <div class="article-meta">
-        
-        
-        <span id="busuanzi_container_page_pv">
-            Views 👀 :<span id="busuanzi_value_page_pv">
-                <span class="count-comment">
-                    <span class="spinner">
-                      <div class="cube1"></div>
-                      <div class="cube2"></div>
-                    </span>
-                </span>
-            </span>
-        </span>
-        
-        
-        <span class="top-comment" title="跳转至评论区">
-            <a href="#comments">
-                Comment:<span class="count-comment">
-                    <span class="spinner">
-                      <div class="cube1"></div>
-                      <div class="cube2"></div>
-                    </span>
-                </span>
-            </a>
-        </span>
-        
-    </div>
-    
-    <div class="toc-ref">
-    
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E7%8B%82%E9%A3%8E"><span class="toc-text">关于狂风</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -282,36 +258,24 @@
     }
 </style>
 </div>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
-</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+            <h2 id="关于狂风"><a href="#关于狂风" class="headerlink" title="关于狂风"></a>关于狂风</h2><p><strong>狂风</strong> 是nielslight的个人博客</p>
+<hr>
+<p>一个非典型程序员</p>
+<p>一名游戏爱好者</p>
+<p>一个妻子的丈夫</p>
+<p>一个孩子的父亲</p>
+<p>……</p>
+<hr>
+<p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
+<p>本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次</p>
 
-      
-       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 nielslight@foxmail.com </span>
-    </div>
-</article>
-
-
-<p>
-    <a  class="dashang" onclick="dashangToggle()">💰</a>
-</p>
-
-
-
-
+        </article>
+        
+        <p>
+            <a  class="dashang" onclick="dashangToggle()">赏</a>
+        </p>
+        
+        
     <div id="comments"></div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 
@@ -333,13 +297,6 @@
 </script>
 
 
-
-
-    
-
-
-
-
     </div>
     <div class="copyright">
         <p class="footer-entry">
@@ -348,11 +305,11 @@
 <p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
 
     </div>
-    <div class="full-toc">
-        <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
+</div>
+<div class="full-toc">
+    <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
 <a class="" id="rocket" ></a>
 
-    </div>
 </div>
 
 <div class="hide_box" onclick="dashangToggle()"></div>
